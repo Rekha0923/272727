@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+nav {
+    background: #ff5733; /* Changed to a vibrant orange-red */
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  nav a:hover {
+    background: #c70039; /* Dark red on hover */
+    text-decoration: none;
+  }
+  

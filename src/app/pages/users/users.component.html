@@ -1,0 +1,10 @@
+<h2>Users List</h2>
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.name }} - {{ user.email }}
+  </li>
+</ul>
+
+<!-- Navigation Links -->
+<button routerLink="/home">Go to Home</button>
+<button routerLink="/contact">Go to Contact</button>
